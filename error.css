@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;900&display=swap');
+*
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(125deg,#B8E4F0,#6166B3);
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+
+    
+}
+.container h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url(img/abstract\ 2.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.container a {
+    color: #fff;
+    background-color: coral;
+    border-radius: 30px;
+    padding: 12px 24px 12px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.container a:hover{
+    background-color:#000957 ;
+}
+
+
+.imgbx{
+    margin-top: 230px;
+    margin-left:540px;
+    z-index: 1;
+    position: absolute;
+
+    animation: bounce 2s infinite ease-out alternate;
+  }
+    @keyframes bounce{
+  0%{
+      transform: translateY(0);
+  }
+  100%{
+      transform: translateY(-20px);
+  }
+}
+
+.imgbx2{
+    margin-top: 400px;
+    margin-left:890px;
+    z-index: 1;
+    position: absolute;
+
+    animation: bounce 2s infinite ease-out alternate;
+  }
+    @keyframes bounce{
+  0%{
+      transform: translateY(0);
+  }
+  100%{
+      transform: translateY(-20px);
+  }
+}
